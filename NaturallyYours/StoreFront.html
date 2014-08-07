@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Bootstrap Theme-->
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+    <!-- Bootstrap Theme Overrides (Magister)-->
+    <link rel="stylesheet" href="css/magister.css">
+
+    <!-- Site CSS-->
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <!--Modernizr-->
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <!-- Font Awesome for glyphs & Google WireOne-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+</head>
+<body class="theme-invert">
+    <div id="holder"> <!-- Parent div-->
+        <div class="container"> 
+            <div class="row" style="margin:20px 0 20px 0;"><!-- Open and close web store-->
+                <div class="col-sm-6">
+                    <div class="btn-group">
+                        <button class="btn btn-success" id="btnStoreOpenConnection">Open Web Store</button>
+                        <button class="btn btn-danger" id="btnStoreCloseConnection">Close Web Store</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row"><!-- Video-->
+                <div class="col-sm-12 text-center">
+                    <video id="storeVideo" autoplay muted class="video" style="border:2px solid red; "></video>
+                </div>
+            </div>
+            <div class="row"> <!-- End Call-->
+                <div class="col-sm-12 text-center">
+                    <button class="btn btn-info" id="btnStoreEndCall" >End Call</button>
+                    <span id="client-id"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal accept/reject window-->
+    <div class="modal fade" id="modalAcceptReject" tabindex="1" role="dialog" aria-labelledby="modalLabel" arai-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalLablel">Incoming Call</h4>
+                </div>
+                <div class="modal-body text-center">
+                    <button class="btn btn-success" id="btnAcceptCall">Accept</button>
+                    <button class="btn btn-danger" data-dismiss="modal" id="btnRejectCall">Reject</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/magister.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxoSv5WhaKc9LlLy7R7nFSfJprpVkmMTI"></script>
+    <script type="text/javascript" src="js/Maps.js"></script>
+    <script type="text/javascript" src="js/Utils.js"></script>
+    <script type="text/javascript" src="js/vendor/peer.min.js"></script>
+    <script type="text/javascript" src="js/RtcStore.js"></script>
+    <script type="text/javascript" src="js/RtcPeer.js"></script>
+    <script type="text/javascript" src="https://cdn.socket.io/socket.io-1.0.6.js"></script>
+</body>
+</html>

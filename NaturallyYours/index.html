@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap-->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- Bootstrap Theme-->
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+        <!-- Bootstrap Theme Overrides (Magister)-->
+        <link rel="stylesheet" href="css/magister.css">
+
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
+
+        <!-- Font Awesome-->
+        <link href="css/font-awesome.min.css" rel="stylesheet"/>
+
+        <!-- Let 'em know who done it-->
+        <link rel="author" href="humans.txt"/>
+              
+        <title>Naturally Yours</title>
+    </head>
+    <body class="theme-invert">
+        <div id="holder">
+            
+            <!-- Navigation Menu-->
+            <nav class="mainmenu">
+                <div class="container">
+                    <div class="dropdown">
+                        <button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                        <!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+                            <li><a href="#head" class="active">Home</a></li>
+                            <!--<li><a href="#products">Products</a></li>-->
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact" id="menu-contact">Contact</a></li>
+                            <li>
+                                <a class="override" target="_blank" href="http://www.facebook.com/pages/Naturally-Yours/180967285252501"><i class="fa fa-facebook"></i> Become a fan</a>
+                            </li>
+                            <li>
+                                <a class="override" target="_blank" href="https://plus.google.com/105060219091846904418/about"><i class="fa fa-google-plus"></i> Join the conversation</a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+                      
+            <!--Large Company Text-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-lg-10 colmd-offset-1 col-lg-offset-1 text-center">
+                        <h1 class="title">Naturally Yours</h1>
+                    </div>                                     
+                </div>
+            </div>
+
+            <!--Main Home Section-->
+            <section class="section" id="head">
+                <div class="container">
+                    <!--Video-->
+                    <div class="row">
+                        <div class="col-md-10 col-lg-10 colmd-offset-1 col-lg-offset-1 text-center">
+                            <video id="guestVideo" autoplay class="video" poster="/img/logo.jpg"></video>
+                        </div>
+                    </div>
+                    <!--Start Button-->
+                    <div class="row">
+                        <div class="col-md-10 col-lg-10 colmd-offset-1 col-lg-offset-1 text-center">
+                            <button type="button" class="btn btn-default" id="btnClientStartCall"><span class="glyphicon glyphicon-play"></span>  Start Video Session</button>                            
+                            <button type="button" class="btn btn-default" id="btnClientEndCall"><span class="glyphicon glyphicon-stop"></span>  End Video Session</button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--About Us -->
+            <section class="section" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 text-center">
+                            <p>
+                                Naturally Yours is an independently owned eco-emporium located in downtown historic Jim Thorpe in the Pocono Mountains of Pennsylvania. Since opening in August of 2007 we have provided our customers with eco-conscious alternative products for everyday use. We endeavor to carry products that have as low an impact on our environment and our health as possible. With that goal in mind, we carry organic cotton, bamboo, alpaca and hemp clothing for adults and infants. We also carry honey and beeswax based soaps, natural personal care items, essential oils, massage oils and stainless steel bottles. We attempt to obtain as much of our product as close to our business as is possible. As such, we have local artists supply clothing accessories and jewelry from recycled materials. We also carry fair trade clothing, accessories, jewelry and handcrafted "treeless" paper products.
+                            </p>
+                        </div>
+                    </div>
+                   
+                </div>
+            </section>
+
+            <!-- Contact Us -->
+            <section class="section" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-sm-12">
+                            <!-- Contact Form-->
+                            <form role="form">
+                                <div class="form-group">
+                                    <label class="control-label" for="inputName"><i class="glyphicon glyphicon-user"></i> Full Name</label>
+                                    <input type="text" id="inputName"class="form-control" placeholder="Full Name" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="inputEmail"><i class="glyphicon glyphicon-envelope"></i> Email Address</label>
+                                    <input type="text" id="inputEmail" class="form-control" placeholder="email@domain.com" required />
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="inputSubject"><i class="glyphicon glyphicon-question-sign"></i> Subject</label>
+                                    <input type="text" id="inputSubject" class="form-control" placeholder="Subject" required />
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="inputMessage"><i class="glyphicon glyphicon-pencil"></i> Message</label>
+                                    <textarea id="inputMessage" rows="6" class="form-control" placeholder="What's on your mind?" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </form>
+                        </div>
+
+                        <!--Map-->
+                        <div class="col-md-6 col-lg-6 col-sm-12 text-center">
+                            <div id="map-canvas" class="google-map-canvas">
+                                <iframe id="gMap"
+                                        width="600"
+                                        height="450"
+                                        frameborder="0" style="border:0"
+                                        src="about:blank"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Address -->
+                    <div class="row">                       
+                        <div class="col-sm-3 col-md-3 col-lg-3 col-sm-offset-6 col-md-offset-6 col-lg-offset-6">
+                            <address>
+                                <strong>
+                                    Naturally Yours<br />
+                                    103 Broadway<br />
+                                    Jim Thorpe, PA 18229<br />
+                                    (570) 325-8209
+                                </strong>
+                            </address>
+                        </div>
+                        <div class="col-sm-3 col-md-3 col-lg-3 text-right">
+                            <address>
+                                <strong>
+                                    Hours of Operation:<br />
+                                    Monday   11am - 5pm<br />
+                                    Friday   11am - 6pm<br />
+                                    Saturday 10am - 8pm<br />
+                                    Sunday   11am - 5pm<br />
+                                </strong>
+                            </address>
+                        </div>
+                    </div>
+                </div>                    
+            </section>            
+
+            <!-- Products Section (TODO: This will require either a different theme or tweaking the magister css because the nav dropdown only supports 5 items)-->
+            <section class="section" id="products">
+                <div class="container">
+                    <div class="row">
+
+                    </div>
+                </div>
+            </section>
+         
+            <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <![endif]-->
+           
+
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+            <script src="js/vendor/bootstrap.min.js"></script>
+            <script src="js/plugins.js"></script>
+            <script src="js/main.js"></script>
+            <script src="js/magister.js"></script>            
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxoSv5WhaKc9LlLy7R7nFSfJprpVkmMTI"></script>
+            <script type="text/javascript" src="js/Utils.js"></script>
+            <script type="text/javascript" src="js/Maps.js"></script>
+            <script type="text/javascript" src="js/vendor/peer.min.js"></script>
+            <script type="text/javascript" src="js/RtcClient.js"></script>
+            <script type="text/javascript" src="js/RtcPeer.js"></script>
+            <script type="text/javascript" src="https://cdn.socket.io/socket.io-1.0.6.js"></script>
+            
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+            <!--<script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>-->
+        </div>
+    </body>
+</html>

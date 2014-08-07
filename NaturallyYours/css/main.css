@@ -1,0 +1,19 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+.row .video {
+    width:720px;
+    height:480px;  
+}
+
+.disabled {
+    display:none;
+}
+
+#btnStoreCloseConnection, #btnStoreEndCall, #btnClientEndCall {
+    display:none;
+}
